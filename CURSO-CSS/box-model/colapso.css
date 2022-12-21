@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+.main{
+    background-color: steelblue;
+    color: white;
+    /* margin-bottom: 130px; */
+    /* margin-bottom: 10px; */
+    /* border: 1px solid transparent; */
+}
+
+.main-title{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.footer{
+    /* margin-top: 50px; */
+    background-color: slateblue;
+    color: white;
+}

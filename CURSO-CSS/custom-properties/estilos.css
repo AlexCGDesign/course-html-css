@@ -1,0 +1,28 @@
+/* custom properties */
+
+:root{
+
+    --color-primario: seagreen;
+    --bordes: 3px dashed black;
+    --fuente: Arial;
+
+}
+
+body{
+    font-family: var(--fuente);
+}
+
+.title{
+
+    color: var(--color-primario);
+    border: var(--bordes);
+
+}
+
+.paragraph{
+    color: var(--color-primario);
+}
+
+.cta{
+    border: var(--bordes);
+}

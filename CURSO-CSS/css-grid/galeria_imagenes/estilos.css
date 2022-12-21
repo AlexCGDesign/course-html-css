@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: 'Archivo', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    padding: .8em 0 .4em;
+}
+
+.gallery{
+    padding-bottom: 3em;
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 160px;
+    grid-template-areas:
+    "img1 img1 img2 img3"
+    "img1 img1 img4 img4"
+    "img5 img5 img6 img7"
+    "img5 img5 img8 img8";
+    gap: .8em;
+}
+
+.gallery__pic{
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+
+.gallery__pic::after{
+    content: "Hola mundo";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128, 0, 128, 0.585);
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    transform: scale(0);
+    transition:transform .3s;
+}
+
+.gallery__pic:hover::after{
+    transform: scale(1);
+}
+
+.gallery__pic--g1{
+    grid-area: img1;
+}
+
+.gallery__pic--g2{
+    grid-area: img2;
+}
+
+.gallery__pic--g3{
+    grid-area: img3;
+}
+
+.gallery__pic--g4{
+    grid-area: img4;
+}
+
+.gallery__pic--g5{
+    grid-area: img5;
+}
+
+.gallery__pic--g6{
+    grid-area: img6;
+}
+
+
+.gallery__pic--g7{
+    grid-area: img7;
+}
+
+.gallery__pic--g8{
+    grid-area: img8;
+}
+
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:768px) {
+    .title{
+        font-size: 2rem;
+    }
+
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "img1 img1"
+        "img1 img1"
+        "img2 img3"
+        "img4 img4"
+        "img4 img4"
+        "img5 img5"
+        "img5 img5"
+        "img6 img7"
+        "img8 img8"
+        "img8 img8";
+    }
+}

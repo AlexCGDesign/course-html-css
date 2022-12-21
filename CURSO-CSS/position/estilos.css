@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    min-height: 300vh;
+}
+
+.parent{
+    margin: 30px auto;
+    width: 350px;
+    padding: 1em;
+    background-color: indigo;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    word-wrap: break-word;
+    text-align: center;
+    color: #fff;
+    padding-top: 1em;
+}
+
+.relative{
+    position: relative;
+    /* top:100px; */
+    /* right: -10px; */
+    /* bottom: -20px; */
+    /* left: -100px; */
+    z-index: 21;
+}
+
+.absolute{
+    background-color: slateblue;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0; */
+    z-index: 20;
+}
+
+.fixed{
+    background-color: crimson;
+
+    position: fixed;
+    top: 60px;
+    left: 80px;
+
+    z-index: 10;
+    /* width: 100%; */
+}

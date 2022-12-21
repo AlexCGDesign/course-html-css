@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: seagreen;
+    color: white;
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid black;
+
+  
+}
+
+.cta{
+    background-color: tomato;
+    color: #fff;
+    padding: 20px;
+
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    
+}
+
+p{
+    width: 300px;
+    padding: 20px;
+    background-color: firebrick;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+/* 
+
+    width: define el ancho del elemento.
+    max-width: define el ancho máximo del elemento (no puede sobrepasar este ancho).
+    min-width: define un ancho mínimo del elemento (no puede medir menos de este ancho).
+
+    height: define el alto del elemento.
+    min-height: define el alto mínimo de un elemento (no puede medir menos de este alto). 
+    max-height: define el alto máximo del elemento (no puede sobrepasar este alto).
+
+    overflow:hidden; esconde lo que se desborda
+
+*/
+
+.padding{
+    /* Usando 4 valores, el orden es en las manecillas del reloj */
+    padding: top right bottom left;
+
+    /* Usando 3 valores, el primer valor se aplica a arriba, 
+    el segundo se aplica a la izquierda y derecha y el tercero se aplica a abajo */
+    padding: top right-left bottom;
+
+    /* Usando 2 valores,el primer valor se aplica a arriba-abajo, y el segundo se aplica
+    a izquierda-derecha */
+    padding: top-bottom right-left;
+
+    /* Usando 1 valor, el valor se aplica a todos los lados de igual manera */
+    padding: top-rigth-bottom-left;
+
+
+    /* height: 200px; */
+
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px; */
+
+    padding: top right bottom left;
+    padding: 20px  ;
+}
+
+.border{
+    /* border-width: 10px;
+    border-style: ridge;
+    border-color: steelblue; */
+
+    /* border: width style color; */
+    border: 5px dashed orange;
+
+    /* 
+
+    Dotted- La línea de el borde será por medio de puntos
+
+    Dashed- La línea del borde será por medio de guiones
+
+    Solid - La línea será solida sin ninguna alteración
+
+    Double - Habrá dos líneas solidas como borde
+
+    Groove - Define un borde ranurado en 3D
+
+    Ridge  - Define un borde estriado en 3D
+
+    */
+}
+
+
+.margin{
+    margin: 50px 30px 70px 10px;
+    /* Esto es lo mismo que el ejemplo anterior, recordando que el primer valor es para top, 
+    el segundo para right, el tercero bottom y el cuarto left*/
+
+    margin: 50px 30px 70px;
+    /* Esto agregará un margin arriba de 50px, uno hacía los lados de 30px y uno hacía 
+    abajo de 70px*/
+
+    margin: 50px 30px;
+    /* Esto agregará un margin arriba y abajo de 50px y uno hacía los lados de 30px*/
+
+    margin: 50px;
+    /* Esto agregará margin de 50px hacía todos los lados*/
+}

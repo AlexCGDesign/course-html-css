@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.element{
+    width: 50%;
+    height: 200px;
+    background-color: slateblue;
+    margin: 0 auto;
+}
+
+/* max-width:600px, min-width:600 */
+
+/* @media (min-width: 600px){
+
+    .element{
+        background-color: crimson;
+    }
+
+} */
+
+@media (min-width: 600px) {
+
+    body{
+        background-color: aquamarine;
+    }
+
+}
+
+@media (min-width: 800px) {
+
+    body{
+        background-color: steelblue;
+    }
+
+}
+
+

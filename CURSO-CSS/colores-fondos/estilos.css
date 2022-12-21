@@ -1,0 +1,97 @@
+/* color, background-color */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    /* https://fonts.google.com/ */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main{
+    /* height: 400px; */
+    max-width: 500px;
+    margin: 30px auto;
+    background-image: linear-gradient(#540a0a8b, #0b0b0da1), 
+    url('./background.jpg');
+    background-size: cover;
+    padding: 80px 40px;
+    color: #fff;
+}
+
+
+.main__title{
+    /* letter-spacing: -5px; */
+    /* word-spacing: -10px; */
+    /* overflow-wrap: break-word; */
+    /* text-transform: lowercase-uppercase; */
+    /* text-transform: capitalize; */
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.main__paragraph{
+    text-align: left;
+    line-height:40px;
+    font-size: 20px;
+    /* 20px * 1.2 = 24px  */
+    margin: 20px 0;
+}
+
+.main__paragraph--second{
+    font-weight:400;
+    font-style: italic;
+}
+
+.main__cta{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 20px 60px;
+
+    border-radius: 50px;
+}
+
+
+
+div{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+
+.title{
+    /* palabra clave */
+    /* https://htmlcolorcodes.com/es/nombres-de-los-colores/ */
+    /* color:rgba(43, 4, 53, 0.511); */
+    /* color: #0000ff8a; */
+
+    /* background */
+
+    /* background-color: royalblue; */
+    background-color: royalblue;
+    background-image: linear-gradient(#ff00008b, #0000ff71), 
+    url('./background.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    color: white;
+    padding: 20px 40px;
+    height: 500px;
+    
+}

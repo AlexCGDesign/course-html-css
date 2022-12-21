@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial;
+    min-height: 300vh;
+}
+
+.card{
+    margin: 40px auto;
+    width: 300px;
+    padding: 1rem;
+    background-color: #15273F;
+    border-radius: 10px;
+
+    box-shadow:10px 10px 10px -1px rgba(53, 54, 53, 0.479);
+
+    color: white;
+}
+
+.card__img{
+    width: 100%;
+    border-radius: inherit;
+}
+
+.card__title{
+    margin: .8rem 0 .6rem;
+}
+
+.card__paragraph{
+    line-height: 1.5;
+}
+
+.card__cta{
+    background-color: darksalmon;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 1rem 0;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 50px;
+}

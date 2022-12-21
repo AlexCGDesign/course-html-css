@@ -1,0 +1,38 @@
+/*  La cascada */
+
+/* 
+
+    Especificidad 1:
+    - Selector de tipo
+    - Pseudoelementos
+    
+    Especificidad 10:
+    - Selector de clase
+    - Selector de atributo
+    - Pseudoclases
+
+    Especificidad 100:
+    - Selector de ID
+
+    (Rompes la especificidad con !important)
+
+*/
+
+
+body{
+    font-family: monospace;
+    color: steelblue;
+}
+
+.container{
+    color: green;
+    font-family: Arial;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+p{
+    color: black;
+    border: inherit ;
+    padding: inherit;
+}
